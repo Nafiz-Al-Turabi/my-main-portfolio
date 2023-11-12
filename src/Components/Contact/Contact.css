@@ -1,0 +1,16 @@
+#scroll-contact {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+#scroll-contact::-webkit-scrollbar {
+  display: none;
+}
+#scroll {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+#scroll::-webkit-scrollbar {
+  display: none;
+}
