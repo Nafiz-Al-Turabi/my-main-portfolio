@@ -38,7 +38,7 @@ const Main = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/" onClick={closeDrawer} className="flex items-center p-3 rounded-lg border border-transparent hover:border-slate-300 hover:backdropbackdrop-blur-sm hover:bg-cyan-200/10 duration-300">
+                        <Link to="/projects" onClick={closeDrawer} className="flex items-center p-3 rounded-lg border border-transparent hover:border-slate-300 hover:backdropbackdrop-blur-sm hover:bg-cyan-200/10 duration-300">
                             <FaNewspaper className="mr-2" />
                             Projects
                         </Link>
@@ -69,10 +69,10 @@ const Main = () => {
 
             <div className="flex-1 lg:pl-16 backdrop-blur-md">
                 <button className="" onClick={toggleDrawer}>
-                    <FaBars className="text-white fixed top-5 left-5 text-2xl z-40" />
+                    <FaBars className="text-white fixed top-5 left-5 text-2xl z-40 " />
                 </button>
                 <Outlet />
-                <MouseTracker></MouseTracker>
+                {/* <MouseTracker></MouseTracker> */}
             </div>
         </div>
     );

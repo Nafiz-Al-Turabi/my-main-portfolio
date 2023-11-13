@@ -1,0 +1,16 @@
+#scroll-Projects {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  #scroll-Projects ::-webkit-scrollbar {
+    display: none;
+  }
+  #scroll {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  #scroll::-webkit-scrollbar {
+    display: none;
+  }

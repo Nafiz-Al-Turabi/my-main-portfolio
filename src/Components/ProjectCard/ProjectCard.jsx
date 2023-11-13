@@ -3,7 +3,7 @@ import { BsCodeSquare, BsFillCircleFill } from "react-icons/bs";
 
 
 const ProjectCard = ({ project }) => {
-    const { title, image, live, git, git_server, description, platform, category } = project
+    const { title, image, live, git, git_server, description, platform, category } = project;
     return (
         <div className='max-w-7xl mx-auto hover:-translate-y-1 duration-300 ease-linear'>
             <div className=" m-2 overflow-hidden rounded-lg shadow-lg  block md:block lg:flex" >
